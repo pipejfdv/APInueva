@@ -5,7 +5,7 @@ function searchMovie(){
     // consulta jquery
     $.ajax({
         // API
-        url:"http://www.omdbapi.com",
+        url:"https://www.omdbapi.com",
         //aplicar el metodo get
         type:"get",
         //retornar en el formato json
